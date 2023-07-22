@@ -35,7 +35,7 @@
     </style>
 </head>
 
-<body class="font-poppins">
+<body class="font-poppins p-5 md:p-6 lg:p-4">
     <header class="md:container md:mx-auto">
         <nav>
             <div class="navbar bg-base-100">
@@ -168,8 +168,15 @@
     </header>
     <main class="md:container md:mx-auto">
         <!-- featured bike -->
-        <section>
-
+        <section class="my-32">
+            <h3 class="text-5xl mb-12 font-semibold text-center">
+                Fetured Bikes In This Year
+            </h3>
+            <div class="grid grid-cols-1 gap-32 justify-center md:grid-cols-2 lg:grid-cols-3">
+                <img class="w-72" src="images/others/feature-bike.png" alt="">
+                <img class="w-72" src="images/others/bike3.png" alt="">
+                <img class="w-72" src="images/others/feature-bike.png" alt="">
+            </div>
         </section>
         <!-- latest bikes -->
         <section class="my-24">
@@ -218,78 +225,166 @@
         <!-- happy clients -->
         <section class="my-24">
             <h3 class="text-5xl mb-12 font-semibold text-center">
-               Happy <span class="text-primary-button-color">Clients Say's</span> 
+                Happy <span class="text-primary-button-color">Clients Say's</span>
             </h3>
-            
+
             <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center p-4 md:p-4 lg:p-5 spcace-y-9">
                 <!-- client 1 -->
                 <div class="card bg-base-100 border border-[#DEDEDE] py-10 px-9">
                     <figure><img class="w-36" src="images/others/user-1.png" alt="Shoes" /></figure>
                     <div class="card-body mt-7">
-                      <p>Slate helps you see how 
-                        many more days you need 
-                        to work to reach your financial 
-                        goal for the month and year.</p>
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
                         <div class="rating justify-center mt-4">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" disabled />
-                          </div>
-                      <div class="text-center space-y-4 mt-4">
-                        <h4 class="text-sm text-[#23A6F0] font-semibold">Regina Miles</h4>
-                        <p class="text-sm font-semibold">Banker</p>
-                      </div>
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <h4 class="text-sm text-[#23A6F0] font-semibold">Regina Miles</h4>
+                            <p class="text-sm font-semibold">Banker</p>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <!-- client 2 -->
                 <div class="card bg-base-100 border border-[#DEDEDE] py-10 px-9">
                     <figure><img class="w-36" src="images/others/user-2.png" alt="Shoes" /></figure>
                     <div class="card-body mt-7">
-                      <p>Slate helps you see how 
-                        many more days you need 
-                        to work to reach your financial 
-                        goal for the month and year.</p>
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
                         <div class="rating justify-center mt-4">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" disabled />
-                          </div>
-                      <div class="text-center space-y-4 mt-4">
-                        <h4 class="text-sm text-[#23A6F0] font-semibold">Regina Miles</h4>
-                        <p class="text-sm font-semibold">Banker</p>
-                      </div>
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <h4 class="text-sm text-[#23A6F0] font-semibold">Regina Miles</h4>
+                            <p class="text-sm font-semibold">Banker</p>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <!-- client 3 -->
                 <div class="card bg-base-100 border border-[#DEDEDE] py-10 px-9">
                     <figure><img class="w-36" src="images/others/user-3.png" alt="Shoes" /></figure>
                     <div class="card-body mt-7">
-                      <p>Slate helps you see how 
-                        many more days you need 
-                        to work to reach your financial 
-                        goal for the month and year.</p>
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
                         <div class="rating justify-center mt-4">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" disabled />
-                          </div>
-                      <div class="text-center space-y-4 mt-4">
-                        <h4 class="text-sm text-[#23A6F0] font-semibold">Regina Miles</h4>
-                        <p class="text-sm font-semibold">Banker</p>
-                      </div>
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <h4 class="text-sm text-[#23A6F0] font-semibold">Regina Miles</h4>
+                            <p class="text-sm font-semibold">Banker</p>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="my-24">
+            <h3 class="text-5xl mb-12 font-semibold text-center">
+                Frequently Asked <span class="text-primary-button-color">Questions</span>
+            </h3>
+            <div class="hero">
+                <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+                    <img src="images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <!-- first question -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- second question -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                How can I tell if my helmet is old and I need a
+                                new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- third question -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                My bike has been in storage is it safe to ride?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- four question -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                What rules should I follow when riding my bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-[#0B0D17] text-neutral-content flex justify-around">
+        <div>
+            <div>
+                <div class="flex flex-col gap-3 md:flex-row lg:flex-row ">
+                    <a href="#" class="mr-6">Download Now</a>
+                <a href="#">License</a>
+                </div>
+                
+                <ul class="list-none flex flex-col md:flex-row lg:flex-row gap-2 md:gap-4 lg:gap-6 mt-4 lg:mt-3">
+                    <li class="cursor-pointer">About</li>
+                    <li class="cursor-pointer">Feature</li>
+                    <li class="cursor-pointer">Pricing</li>
+                    <li class="cursor-pointer">Careers</li>
+                    <li class="cursor-pointer">Help</li>
+                    <li class="cursor-pointer">Privacy Policy</li>
+                </ul>
+                <p class="text-[#D9DBE1] text-sm font-normal mt-6">© 2020 bike. All rights reserved</p>
+            </div>
+            
+        </div>
+        <div>
+            <span class="text-[#D9DBE1] text-xl font-medium">Get the App</span>
+            <div class="grid grid-cols-1 gap-4">
+                <a class="cursor-pointer"><img class="w-32" src="images/others/android.png" alt=""></a>
+                <a class="cursor-pointer"><img class="w-32" src="images/others/ios.png" alt=""></a>
+            </div>
+        </div>
     </footer>
 </body>
 
